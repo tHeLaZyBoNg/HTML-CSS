@@ -1,0 +1,78 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    
+    /* This works on hovering the cursor */
+    /* Opacity works between 0-1  0 being the lowest and 1 bieng the highest */
+    .subscribe-button:hover{ 
+        opacity: 0.7; 
+    } 
+    /* this part works on clicking on it */
+    .subscribe-button:active{
+        opacity: 0.5;
+    }
+    .join-button {
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 2px;
+        height: 30px;
+        width: 100px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 4px;
+        /* can add multiple transitions using comma seperation */
+        transition: background-color 1s,
+        color 1s;
+    }
+    .join-button:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+    .join-button:active{
+        /* background-color: pink;
+        color: red; */
+        opacity: 0.6;
+    }
+    .tweet-button {
+        background-color: rgb(0, 174, 231);
+        color: white;
+        height: 35px;
+        width: 78px;
+        border-radius: 16px;
+        /* border-color: ; */
+        border: none;
+        margin-left: 4px;
+        font-display: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 1s;
+        
+    }
+    .tweet-button:hover{
+        /*  Horizontal posotion, vertical position, blur, rgba that is the opacity with the colors required  */
+        box-shadow: 3px 3px 10px rgba(255, 1, 1, 15);
+    }
+
+</style>
+<button class="subscribe-button">
+    Subscribe
+</button>
+<button class="join-button">
+    Join
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>
+
