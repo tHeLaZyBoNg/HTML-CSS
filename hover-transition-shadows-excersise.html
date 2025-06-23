@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--  Contains things that are not visible on the page like title, style-->
+    <title> New Page</title>
+    <style>
+        .request-button {
+            background-color: black;
+            color: white ;
+            margin-left: 4px;
+            height: 40px;
+            width: 110px;
+            font-size: 13px;
+            border: none;
+            cursor: pointer;
+            /* font-style: italic; */
+            /* font-weight: ; */
+            transition: opacity 0.3s;
+        }
+        .request-button:hover{
+            opacity: 0.8;
+        }
+        .cart-button {
+            background-color: rgb(255, 216, 20);
+            border: none;
+            height: 35px;
+            width: 160px;
+            border-radius: 16px;
+            margin-top: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .cart-button:hover{
+            /* opacity: 0.7; */
+            background-color: rgb(232, 200, 57);
+        }
+        .git-button {
+            background-color: rgb(46, 164, 79);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 90px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s, box-shadow 1s;
+        } 
+        .git-button:hover{
+            background-color: gray;
+            color: red;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+        }
+        .first-bootstrap {
+            background-color: rgb(119, 82, 148);
+            color: white;
+            margin-left: 2px;
+            margin-right: 4px;
+            height: 35px;
+            width: 102px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .first-bootstrap:hover{
+            background-color: rgb(109, 55, 151);
+        }
+        .second-bootstrap {
+            background-color: white;
+            color: rgb(108, 108, 108);
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(108, 108, 108);
+            border-radius: 5px;
+            height: 35px;
+            width: 102px;
+            font-weight: bold;
+            font-size: 13px;
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        .second-bootstrap:hover{
+            background-color: rgb(146, 143, 143);
+            color: white;
+            box-shadow: 6px 5px 20px rgba(0, 3, 3, 0.5);
+        }
+        .first-linkedIn{
+            background-color: rgb(10, 102, 194);
+            color: white ;
+            font-weight: bold;
+            font-size: 14px;
+            height: 36px;
+            width: 230px; 
+            border-radius: 20px;
+            border: none;
+            margin-right: 4px;
+            margin-left: 4px;
+            margin-top: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s, font-size 0.3s;
+        }
+        .first-linkedIn:hover{
+            background-color: rgb(39, 59, 170);
+            font-size: 12px;
+        }
+        .second-linkedIn{
+            background-color: white;
+            color: rgb(10, 102, 194);
+            height: 36px;
+            width: 70px;
+            border: none;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: rgb(10, 102, 194);
+            border-width: 1px;
+            transition: border-width 0.01s;
+            cursor: pointer;
+        }
+        .second-linkedIn:hover{
+            border-width: 2px;
+        }
+        .in-stock{
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+        }
+        .amazon-cart-button{
+            background-color: rgb(255, 216, 20);
+            border: none;
+            height: 30px;
+            width: 100px;
+            font-size: 12px;
+            border-radius: 14px;
+            /* margin-top: 4px; */
+            margin-left: 2px;
+            margin-right: 8px;
+            cursor: pointer;
+            transition: background-color 1s, opacity 0.1s;
+        }
+        .amazon-cart-button:hover{
+            background-color: rgb(194, 164, 16);
+            /* opacity: 0.8; */
+        }
+        .amazon-cart-button:active{
+            opacity: 0.7;
+        }
+        .amazon-buy-button{
+            background-color: rgb(255, 164, 28);
+            height: 30px;
+            width: 100px;
+            border: none;
+            border-radius: 14px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s, opacity 0.1s;
+        }
+        .amazon-buy-button:hover{
+            background-color: rgb(205, 129, 14);
+        }
+        .amazon-buy-button:active{
+            opacity: 0.6;
+        }
+        .link-button{
+            color: rgb(0, 113, 133);
+            /* font-weight: bold;
+            font-style: oblique;
+            font-size: 20px; */
+            transition: color 0.2s;
+        }
+        .link-button:hover{
+            color: darkgoldenrod;
+        }
+    
+    </style>
+    </head>
+    <body>
+        <!-- Contains things that ar visisble on the page -->
+        
+        
+        
+        <!-- <button class="request-button">
+            Request now
+        </button> -->
+        
+        <!-- <button class="cart-button">
+            Add to Cart 
+        </button> -->
+        
+        
+        <!-- <button class="git-button">
+            Sign up
+        </button> -->
+        
+        
+        <!-- <button class="first-bootstrap">
+            Get started
+            <button class="second-bootstrap">
+                Download
+            </button>
+        </button> -->
+        
+        
+        <!-- <button class="first-linkedIn">
+            Apply on Company Website
+            <button class="second-LinkedIn">
+                Save
+            </button>
+        </button> -->
+        
+        
+        
+        
+        <a href="amazon.com" class="link-button"> Back to Amazon</a>
+        
+        <h3> Nike Black Running Shoes lelo </h3>
+        
+        <p class="in-stock">$39 - In Stock</p>
+        
+        <p>Free Delivery Tomorrow.</p>
+        
+        <button class="amazon-cart-button">
+            Add to Cart 
+            <button class="amazon-buy-button">
+                Buy Now
+            </button>
+        </button>
+    </body>
+</html>

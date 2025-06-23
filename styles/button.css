@@ -1,0 +1,146 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.join-button {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.tweet-button {
+    background-color: rgb(0, 174, 231);
+    color: white;
+    height: 35px;
+    width: 78px;
+    border-radius: 16px;
+    /* border-color: ; */
+    border: none;
+    margin-left: 4px;
+    font-display: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.request-button {
+    background-color: black;
+    color: white ;
+    margin-left: 4px;
+    height: 40px;
+    width: 110px;
+    font-size: 13px;
+    border: none;
+    /* font-style: italic; */
+    /* font-weight: ; */
+}
+.cart-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 35px;
+    width: 160px;
+    border-radius: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.git-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.first-bootstrap {
+    background-color: rgb(119, 82, 148);
+    color: white;
+    margin-left: 2px;
+    margin-right: 4px;
+    height: 35px;
+    width: 102px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.second-bootstrap {
+    background-color: white;
+    color: rgb(108, 108, 108);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(108, 108, 108);
+    border-radius: 5px;
+    height: 35px;
+    width: 102px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.first-linkedIn{
+    background-color: rgb(10, 102, 194);
+    color: white ;
+    font-weight: bold;
+    font-size: 14px;
+    height: 36px;
+    width: 230px; 
+    border-radius: 20px;
+    border: none;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.second-linkedIn{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    height: 36px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+}
+.in-stock{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+.amazon-cart-button{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 14px;
+    /* margin-top: 4px; */
+    margin-left: 2px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.amazon-buy-button{
+    background-color: rgb(255, 164, 28);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 14px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.link-button{
+    color: rgb(0, 113, 133);
+    /* font-weight: bold;
+    font-style: oblique;
+    font-size: 20px; */
+}
